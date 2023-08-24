@@ -4,7 +4,9 @@ pygame.init()
 
 # colours (check more on internet) (Format = R,G,B)
 white = (255, 255, 255)
-black = (0, 0, 0)
+black = (30, 40, 70)
+
+new_variable = 89
 
 width = 400
 height = 400

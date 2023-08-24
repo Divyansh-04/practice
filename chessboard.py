@@ -4,7 +4,7 @@ pygame.init()
 
 # colours (check more on internet) (Format = R,G,B)
 white = (255, 255, 255)
-black = (0, 0, 0)
+black = (56, 0, 0)
 
 width = 400
 height = 400
@@ -21,7 +21,7 @@ new_var = 10
 while gamestate:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            gamestate = False
+            gamestate = 0
 
     for row in range(0, 8):
         for column in range(0, 8):

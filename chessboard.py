@@ -14,8 +14,9 @@ win = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Chess")
 pygame.display.update()  # updates the window
 
-gamestate = False
+gamestate = 1000
 
+new_var = 10
 
 while gamestate:
     for event in pygame.event.get():
